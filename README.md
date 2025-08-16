@@ -11,7 +11,6 @@ A **Retrieval-Augmented Generation (RAG) chatbot** built with **Streamlit** that
 * 🤖 **Context-aware responses** using Retrieval-Augmented Generation.
 * 💾 Session-based chat history for continuous conversation.
 * ⚡ Simple and intuitive **Streamlit interface**.
-* 🔧 Easily extendable with different embedding models or LLMs.
 
 ---
 
