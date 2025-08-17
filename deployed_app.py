@@ -4,7 +4,6 @@ import asyncio
 import streamlit as st
 from PyPDF2 import PdfReader
 from pydantic import SecretStr
-from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
 from langchain.callbacks.base import BaseCallbackHandler
