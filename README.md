@@ -1,5 +1,10 @@
 # 📚 Multiple PDF RAG Chatbot
 
+Open in 
+<a href="https://multiple-pdf-rag-chatbot-01.streamlit.app">
+ <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" alt="Open in streamlit" width=80 height=50>
+</a>
+
 A **Retrieval-Augmented Generation (RAG) chatbot** built with **Streamlit** that allows users to upload multiple PDF documents and interact with them conversationally. The chatbot retrieves relevant context from the PDFs and generates precise answers using LLMs.
 
 ---
@@ -62,7 +67,7 @@ GOOGLE_API_KEY=your_google_api_key_here
 ### 5️⃣ Run the Streamlit app
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run self_hosted_app.py
 ```
 
 ---
@@ -86,7 +91,7 @@ Multiple-PDF-RAG-Chatbot/
   |-- 1.png              # Picture of the new chat
   |-- 2.png              # Picture of the chat with a file uploaded
 │-- self_hosted_app.py   # Self-hosted application version
-|-- deployed_app.py      # Deployed app on [streamlit.io](https://pointerpointer.com/)
+|-- deployed_app.py      # Deployed app on streamlit.io
 │-- requirements.txt     # Project dependencies
 │-- README.md            # Project documentation
 │-- LICENSE              # License of the repo
