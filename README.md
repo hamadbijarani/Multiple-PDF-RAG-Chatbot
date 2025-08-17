@@ -3,6 +3,11 @@
 A **Retrieval-Augmented Generation (RAG) chatbot** built with **Streamlit** that allows users to upload multiple PDF documents and interact with them conversationally. The chatbot retrieves relevant context from the PDFs and generates precise answers using LLMs.
 
 ---
+## Interface
+
+![Interface image](./pics/1.png)
+
+---
 
 ## 🚀 Features
 
@@ -69,6 +74,8 @@ streamlit run streamlit_app.py
 3. Ask questions in natural language.
 4. The chatbot retrieves context and generates accurate answers.
 
+![Image of using the app](./pics/2.png)
+
 ---
 
 ## 📂 Project Structure
@@ -78,7 +85,8 @@ Multiple-PDF-RAG-Chatbot/
   pics/
   |-- 1.png              # Picture of the new chat
   |-- 2.png              # Picture of the chat with a file uploaded
-│-- streamlit_app.py     # Main Streamlit application
+│-- self_hosted_app.py   # Self-hosted application version
+|-- deployed_app.py      # Deployed app on [streamlit.io](https://pointerpointer.com/)
 │-- requirements.txt     # Project dependencies
 │-- README.md            # Project documentation
 │-- LICENSE              # License of the repo
