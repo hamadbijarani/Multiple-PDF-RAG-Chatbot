@@ -4,7 +4,6 @@ import asyncio
 import streamlit as st
 from PyPDF2 import PdfReader
 from pydantic import SecretStr
-from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
 from langchain.callbacks.base import BaseCallbackHandler
@@ -18,8 +17,7 @@ try:
 except RuntimeError:
     asyncio.set_event_loop(asyncio.new_event_loop())
 
-load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secret["google"]["GOOGLE_API_KEY"]
 
 
 def get_text_chunks(text):
