@@ -1,4 +1,5 @@
 pypdf2
 streamlit
 langchain
+langchain_community
 langchain-google-genai
