@@ -1,5 +1,6 @@
 pypdf2
 streamlit
 langchain
+faiss-cpu
 langchain_community
 langchain-google-genai
