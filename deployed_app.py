@@ -17,7 +17,7 @@ try:
 except RuntimeError:
     asyncio.set_event_loop(asyncio.new_event_loop())
 
-GOOGLE_API_KEY = st.secret["google"]["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = st.secrets["google"]["GOOGLE_API_KEY"]
 
 
 def get_text_chunks(text):
